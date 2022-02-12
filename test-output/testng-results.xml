@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-10T02:32:11Z" name="Suite" finished-at="2022-02-10T02:32:23Z" duration-ms="12180">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:selenium.cucumber.runner.EBFSTestRunner@13e39c73]" name="scenario" class="selenium.cucumber.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-10T02:32:11Z" name="EnvironmTest" finished-at="2022-02-10T02:32:23Z" duration-ms="12180">
+      <class name="selenium.cucumber.runner.EBFSTestRunner">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:selenium.cucumber.runner.EBFSTestRunner@13e39c73]" started-at="2022-02-10T02:32:11Z" name="beforeSuite" finished-at="2022-02-10T02:32:11Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:selenium.cucumber.runner.EBFSTestRunner@13e39c73]" started-at="2022-02-10T02:32:11Z" name="BeforeTest" finished-at="2022-02-10T02:32:11Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:selenium.cucumber.runner.EBFSTestRunner@13e39c73]" started-at="2022-02-10T02:32:11Z" name="setUpClass" finished-at="2022-02-10T02:32:11Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="scenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:selenium.cucumber.runner.EBFSTestRunner@13e39c73]" started-at="2022-02-10T02:32:11Z" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-10T02:32:17Z" duration-ms="6299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["EBFS homepage title verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EBFS Homepage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method signature="scenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:selenium.cucumber.runner.EBFSTestRunner@13e39c73]" started-at="2022-02-10T02:32:17Z" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-10T02:32:22Z" duration-ms="5075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["EBFS homepage Logo verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EBFS Homepage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:selenium.cucumber.runner.EBFSTestRunner@13e39c73]" started-at="2022-02-10T02:32:22Z" name="tearDownClass" finished-at="2022-02-10T02:32:23Z" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownTests()[pri:0, instance:selenium.cucumber.runner.EBFSTestRunner@13e39c73]" started-at="2022-02-10T02:32:23Z" name="tearDownTests" finished-at="2022-02-10T02:32:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTests -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:selenium.cucumber.runner.EBFSTestRunner@13e39c73]" started-at="2022-02-10T02:32:23Z" name="tearDownSuite" finished-at="2022-02-10T02:32:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- selenium.cucumber.runner.EBFSTestRunner -->
+    </test> <!-- EnvironmTest -->
+  </suite> <!-- Suite -->
+</testng-results>

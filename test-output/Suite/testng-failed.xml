@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EnvironmTest(failed)">
+    <classes>
+      <class name="selenium.cucumber.runner.EBFSTestRunner">
+        <methods>
+          <include name="tearDownTests"/>
+          <include name="setUpClass"/>
+          <include name="scenario" invocation-numbers="0"/>
+          <include name="tearDownSuite"/>
+          <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- selenium.cucumber.runner.EBFSTestRunner -->
+    </classes>
+  </test> <!-- EnvironmTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
